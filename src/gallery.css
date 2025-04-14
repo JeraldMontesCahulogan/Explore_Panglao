@@ -1,0 +1,27 @@
+@keyframes scroll-manual {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll-manual {
+  animation: scroll-manual 40s linear infinite;
+}
+
+.gallery-scroll-container:hover .animate-scroll-manual {
+  animation-play-state: paused;
+}
+
+/* Optional: Hide scrollbar if desired */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

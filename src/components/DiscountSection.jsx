@@ -1,7 +1,7 @@
 import Discount from "../assets/discount.png";
 import Discover from "../assets/discoverPanglao.png";
 
-const PromoSection = () => {
+const DiscountSection = () => {
   return (
     <section className="py-16 bg-white scroll-mt-8" id="promo">
       <div className="container mx-auto px-4">
@@ -44,4 +44,4 @@ const PromoSection = () => {
   );
 };
 
-export default PromoSection;
+export default DiscountSection;
